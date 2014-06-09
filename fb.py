@@ -1,7 +1,7 @@
 import urllib2
 import json
 
-token = "CAACEdEose0cBACAFJb5jHvsv3xNl2d2dJNsuhtJSSu1crFdntFLt6ZC2SgIjl4clfmssASZBTHrbUK6dScM2gJxZCPxMasZAsTcTjdJ3UI2BmTu9HRoc06SW6XXMMHuFBza471FcyeO1w9OrFLxN6qtQGRUPGNF41iLIdoZApZA3P5KZAwvLsQAdV8YcKLRm0UZD"
+token = "CAACEdEose0cBACOPH1Tmrks9A66GehBIvVKSw7Lz3EL3cA3IGZBCIkTVuWxJ9RsJMKouzvHkWDG7MLslobfAb0gil5ItvPADXOXfew1MmZAzolMzFZBKZCnQUroXeSyC5tW4iXLZAkGPNSDZAbjzEEvZBlpcMpaEZBoddTZBZBeJUpMBVNlRZBsCLT2q2VcNVbblcMZD"
 
 def getAll(url):
     resp = json.loads(urllib2.urlopen(url).read())

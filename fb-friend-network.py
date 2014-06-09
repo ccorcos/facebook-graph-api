@@ -1,6 +1,7 @@
 from multiprocessing import Pool
 import json
 import pickle
+from fb import fb
 
 print "downloading me"
 myInfo = fb("me")
@@ -25,8 +26,8 @@ if __name__ == '__main__':
     people = p.map(getFriendandFriends, myInfo['friends'])
     people.append(myInfo)
 
-    with open('fb-friends.pickle', 'wb') as handle:
-        pickle.dump(people, handle)
+    # with open('fb-friends.pickle', 'wb') as handle:
+    #     pickle.dump(people, handle)
 
     with open('fb-friends.json', 'wb') as handle:
         handle.write(json.dumps(people))
