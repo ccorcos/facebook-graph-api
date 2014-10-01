@@ -13,3 +13,9 @@ To download your Facebook social network, open Terminal and run
 `python fb-friend-network.py` 
 
 If you get an error, get a new access token and try again.
+
+# Future
+
+Try Minimum Spanning Tree. Remove the K-1 largest edges for K clusters
+
+Try Low Stretch Spanning Tree.
