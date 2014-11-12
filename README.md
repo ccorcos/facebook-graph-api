@@ -1,4 +1,4 @@
-# Python Facebook Graph Explorer
+# Facebook Graph Explorer
 
 This python script helps you gather any information you want from your own facebook account via the Facebook Graph API. 
 
